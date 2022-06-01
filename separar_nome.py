@@ -1,0 +1,5 @@
+nome = str(input('Escreva seu nome completo: ')).strip()
+print(f'Seu nome completo em maiúsculo é {nome.upper()}')
+print(f'Em minúsculo é {nome.lower()}')
+print(f'Contém {len(nome.replace(" ",""))} Letras')
+print(f'E o seu primeiro nome contém {len(nome.split()[0])} letras')
